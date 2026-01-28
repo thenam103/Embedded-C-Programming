@@ -1,0 +1,3 @@
+- static global variable -> dùng riêng cho file chứa nó (các function trong file)
+- static variable trong 1 function -> không bị xóa đi khi function kết thúc
+- static function -> dùng riêng trong file đó
