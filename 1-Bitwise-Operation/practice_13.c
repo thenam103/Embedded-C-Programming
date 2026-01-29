@@ -10,7 +10,7 @@
 uint16_t build_register(uint8_t enable, uint8_t mode, uint8_t speed) {
     // Use macros to set fields
     uint16_t result = 0;
-    
+
     result |= SET_ENABLE(enable);
     result |= SET_MODE(mode);
     result |= SET_SPEED(speed);
